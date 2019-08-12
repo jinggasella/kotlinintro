@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin Intro</string>
+    <string name="label_splash">Versi 1.0</string>
+    <string name="text_form_login">Rider Login</string>
+    <string name="text_welcome">Selamat Datang!</string>
+    <string name="text_logout">Keluar Aplikasi</string>
+    <string name="teks_menu1">Kamera</string>
+    <string name="teks_menu2">Volley</string>
+    <string name="teks_menu3">Esafirm Lib</string>
+    <string name="teks_menu4">Database</string>
+</resources>

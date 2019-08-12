@@ -9,7 +9,7 @@ import com.eksad.kotlinintro.utilities.EsafirmActivity
 import com.eksad.kotlinintro.utilities.SessionManager
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(  ) {
     val context: Context = this
 
     override fun onCreate(savedInstanceState: Bundle?) {
