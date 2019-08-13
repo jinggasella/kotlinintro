@@ -46,4 +46,10 @@ dependencies {
 
 //    /import library picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+
+    def appCenterSdkVersion = '2.2.0'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+
 }

@@ -9,12 +9,21 @@ import com.eksad.kotlinintro.utilities.EsafirmActivity
 import com.eksad.kotlinintro.utilities.SessionManager
 import kotlinx.android.synthetic.main.activity_main.*
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 class MainActivity : AppCompatActivity(  ) {
     val context: Context = this
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        AppCenter.start(
+            application, "cfbca860-ca46-4594-af40-3da17ed2c645",
+            Analytics::class.java, Crashes::class.java
+        )
 
         tangkapIntentExtra()
         tampilkanUsernameDariSessionManager()
