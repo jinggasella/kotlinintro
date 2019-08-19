@@ -5,7 +5,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.eksad.kotlinintro.utilities.Constanta
-import com.eksad.kotlinintro.utilities.EsafirmActivity
 import com.eksad.kotlinintro.utilities.SessionManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -21,7 +20,7 @@ class MainActivity : AppCompatActivity(  ) {
         setContentView(R.layout.activity_main)
 
         AppCenter.start(
-            application, "cfbca860-ca46-4594-af40-3da17ed2c645",
+            application, "759bdbb8-79d2-4ae1-b56e-2cb2aea5e699",
             Analytics::class.java, Crashes::class.java
         )
 

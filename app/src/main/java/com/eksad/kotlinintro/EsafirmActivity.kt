@@ -1,4 +1,4 @@
-package com.eksad.kotlinintro.utilities
+package com.eksad.kotlinintro
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.eksad.kotlinintro.R
 import com.esafirm.imagepicker.features.ImagePicker
 import com.esafirm.imagepicker.model.Image
 import kotlinx.android.synthetic.main.activity_esafirm.*
@@ -59,12 +58,13 @@ class EsafirmActivity : AppCompatActivity() {
             }
         }
         else if (requestCode == REQUEST_CODE_GALERY) {
+            print("=======")
             var images: List<Image> = ImagePicker.getImages(data)
             for (image in images){
                 var options = BitmapFactory.Options()
                 var bitmap = BitmapFactory.decodeFile(image.path,options)
 
-//                 Glide.with(context).load(bitmap).into(tampilImage)
+                 Glide.with(context).load(bitmap).into(tampilImage)
 
                 var imageView = ImageView(context)
                 Glide.with(context)

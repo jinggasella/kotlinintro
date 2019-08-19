@@ -36,22 +36,23 @@
             android:hint="username"
             android:background="@drawable/custom_edittext_tipe_1"/>
 
-    <!-- <EditText
-         android:id="@+id/input_password"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_marginLeft="20dp"
-         android:layout_marginRight="20dp"
-         android:hint="password"
-         android:inputType="textPassword"
-         android:background="@drawable/custom_edittext_tipe_1"/>
-         -->
+    <!--<EditText-->
+         <!--android:id="@+id/input_password"-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:layout_height="wrap_content"-->
+         <!--android:layout_marginLeft="20dp"-->
+         <!--android:layout_marginRight="20dp"-->
+         <!--android:hint="password"-->
+         <!--android:inputType="textPassword"-->
+         <!--android:background="@drawable/custom_edittext_tipe_1"/>-->
+
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             app:passwordToggleEnabled="true">
+
         <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
