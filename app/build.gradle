@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\User-PC\\Desktop\\Android.keystore.jks')
+            storeFile file('D:\\KotlinIntro\\app\\Android.keystore.jks')
             storePassword '123456'
             keyAlias = 'MyAndroidKey'
             keyPassword '123456'
