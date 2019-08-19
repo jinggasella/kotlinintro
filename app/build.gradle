@@ -31,13 +31,6 @@ android {
             signingConfig signingConfigs.config
         }
     }
-    flavorDimensions 'free'
-    productFlavors {
-        free {
-            dimension = 'free'
-            signingConfig signingConfigs.config
-        }
-    }
 }
 
 dependencies {
