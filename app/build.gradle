@@ -9,7 +9,7 @@ android {
         config {
             storeFile file('C:\\Users\\User-PC\\Desktop\\Android.keystore.jks')
             storePassword '123456'
-            keyAlias = 'MyAndroidKey'
+            keyAlias 'MyAndroidKey'
             keyPassword '123456'
         }
     }
